@@ -14,7 +14,7 @@ function initializeUnity() {
         codeUrl: buildUrl + "/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Central Interceptor",
+        productName: "Runner",
         productVersion: "1.0",
         showBanner: unityShowBanner,
     };
