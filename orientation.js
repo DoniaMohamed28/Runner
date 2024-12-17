@@ -10,7 +10,7 @@ function initializeUnity() {
     var loaderUrl = buildUrl + "/Build.loader.js";
     var config = {
         dataUrl: buildUrl + "/Build.data",
-        frameworkUrl: buildUrl + "/Runner.framework.js",
+        frameworkUrl: buildUrl + "/Build.framework.js",
         codeUrl: buildUrl + "/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
