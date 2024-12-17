@@ -7,11 +7,11 @@ function initializeUnity() {
     var fullscreenButton = document.querySelector("#unity-fullscreen-button");
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/Runner.loader.js";
+    var loaderUrl = buildUrl + "/Build.loader.js";
     var config = {
-        dataUrl: buildUrl + "/Runner.data",
+        dataUrl: buildUrl + "/Build.data",
         frameworkUrl: buildUrl + "/Runner.framework.js",
-        codeUrl: buildUrl + "/Runner.wasm",
+        codeUrl: buildUrl + "/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Central Interceptor",
